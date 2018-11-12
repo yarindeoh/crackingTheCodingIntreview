@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cb89a4b-4a3f-4bdc-b8a8-839da9315ccd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/algos/fidnMaxSubArr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algos/findCountPaths.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algos/longestPolindromStr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algos/memorization.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algos/newSpiralMatrix.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter02-linkedlist/2.5infinitLoop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04-trees/helpers/findClassInDom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter08-recursion/8.1fibo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algos/rotateImage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algos/theMaze.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter02-linkedlist/2.2knthLastElement.js" beforeDir="false" afterPath="$PROJECT_DIR$/chapter02-linkedlist/2.2knthLastElement.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter04-trees/4.8sumOfPath.js" beforeDir="false" afterPath="$PROJECT_DIR$/chapter04-trees/4.8sumOfPath.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter04-trees/helpers/findMinMax.js" beforeDir="false" afterPath="$PROJECT_DIR$/chapter04-trees/findMinMax.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,7 +21,7 @@
       <file leaf-file-name="memorization.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algos/memorization.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
+            <state relative-caret-position="650">
               <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -39,11 +30,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="4.8sumOfPath.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="4.8sumOfPath.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter04-trees/4.8sumOfPath.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="38" column="15" lean-forward="true" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
+            <state relative-caret-position="395">
+              <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="theMaze.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algos/theMaze.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rotateImage.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/algos/rotateImage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="625">
+              <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -109,8 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/chapter01/1.2reverseString.js" />
-        <option value="$PROJECT_DIR$/chapter01/1.1uniqeString.js" />
         <option value="$PROJECT_DIR$/chapter01/1.3removeDupStr.js" />
         <option value="$PROJECT_DIR$/chapter01/1.4anagramStr.js" />
         <option value="$PROJECT_DIR$/chapter01/1.5urlify.js" />
@@ -160,6 +167,8 @@
         <option value="$PROJECT_DIR$/chapter04-trees/helpers/findClassInDom.js" />
         <option value="$PROJECT_DIR$/algos/memorization.js" />
         <option value="$PROJECT_DIR$/chapter04-trees/4.8sumOfPath.js" />
+        <option value="$PROJECT_DIR$/algos/theMaze.js" />
+        <option value="$PROJECT_DIR$/algos/rotateImage.js" />
       </list>
     </option>
   </component>
@@ -172,11 +181,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="y" value="-7" />
-    <option name="width" value="1550" />
-    <option name="height" value="838" />
+    <option name="width" value="1295" />
+    <option name="height" value="695" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -195,17 +204,6 @@
               <item name="crackingTheCodingIntreview" type="b2602c69:ProjectViewProjectNode" />
               <item name="crackingTheCodingIntreview" type="462c0819:PsiDirectoryNode" />
               <item name="algos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crackingTheCodingIntreview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crackingTheCodingIntreview" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter04-trees" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crackingTheCodingIntreview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crackingTheCodingIntreview" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter04-trees" type="462c0819:PsiDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -237,28 +235,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.4.8sumOfPath.js">
-    <configuration name="2.2knthLastElement.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="2.2knthLastElement.js" working-dir="$PROJECT_DIR$/chapter02-linkedlist" />
+  <component name="RunManager" selected="Node.js.rotateImage.js">
     <configuration name="2.4sumLists.js" type="NodeJSConfigurationType" factoryName="Node.js" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/chapter02-linkedlist/2.4sumLists.js" working-dir="$PROJECT_DIR$/chapter02-linkedlist" />
-    <configuration name="2.5infinitLoop.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="2.5infinitLoop.js" working-dir="$PROJECT_DIR$/chapter02-linkedlist" />
     <configuration name="4.8sumOfPath.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="4.8sumOfPath.js" working-dir="$PROJECT_DIR$/chapter04-trees" />
     <configuration name="findClassInDom.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="findClassInDom.js" working-dir="$PROJECT_DIR$/chapter04-trees/helpers" />
     <configuration name="memorization.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="memorization.js" working-dir="$PROJECT_DIR$/algos" />
+    <configuration name="rotateImage.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="rotateImage.js" working-dir="$PROJECT_DIR$/algos" />
+    <configuration name="theMaze.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="theMaze.js" working-dir="$PROJECT_DIR$/algos" />
     <list>
       <item itemvalue="Node.js.2.4sumLists.js" />
-      <item itemvalue="Node.js.2.2knthLastElement.js" />
-      <item itemvalue="Node.js.2.5infinitLoop.js" />
       <item itemvalue="Node.js.findClassInDom.js" />
       <item itemvalue="Node.js.memorization.js" />
       <item itemvalue="Node.js.4.8sumOfPath.js" />
+      <item itemvalue="Node.js.theMaze.js" />
+      <item itemvalue="Node.js.rotateImage.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.rotateImage.js" />
+        <item itemvalue="Node.js.theMaze.js" />
         <item itemvalue="Node.js.4.8sumOfPath.js" />
         <item itemvalue="Node.js.memorization.js" />
         <item itemvalue="Node.js.findClassInDom.js" />
-        <item itemvalue="Node.js.2.5infinitLoop.js" />
-        <item itemvalue="Node.js.2.2knthLastElement.js" />
       </list>
     </recent_temporary>
   </component>
@@ -275,23 +273,23 @@
       <workItem from="1541074530767" duration="21548000" />
       <workItem from="1541337340545" duration="1195000" />
       <workItem from="1541356863916" duration="10320000" />
-      <workItem from="1541510482177" duration="72582000" />
+      <workItem from="1541510482177" duration="73249000" />
+      <workItem from="1541936545236" duration="3377000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105645000" />
+    <option name="totallyTimeSpent" value="109689000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1048" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2081138" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31399047" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33736265" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5527728" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32905984" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -312,13 +310,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapter03-stacks&amp;queues/3.6sortStack.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter02-linkedlist/helpers/Node.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -473,9 +464,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Documents/My Received Files/_select.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter04-trees/helpers/BST.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
@@ -625,7 +613,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/algos/memorization.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
+        <state relative-caret-position="650">
           <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -663,8 +651,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter04-trees/4.8sumOfPath.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="38" column="15" lean-forward="true" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
+        <state relative-caret-position="395">
+          <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algos/theMaze.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algos/rotateImage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
         </state>
       </provider>
     </entry>
