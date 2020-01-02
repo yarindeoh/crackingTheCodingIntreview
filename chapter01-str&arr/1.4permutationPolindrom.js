@@ -11,7 +11,7 @@ function isPermutationPolindrom(str) {
     map.forEach((value, key) => {
         if(value === 1) {
             count ++;
-        } else if(value %2 !== 0) {
+        } else if(value % 2 !== 0) {
             result = false;
         }
     });
