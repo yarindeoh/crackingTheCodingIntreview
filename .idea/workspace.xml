@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cb89a4b-4a3f-4bdc-b8a8-839da9315ccd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/algos/palindrom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter02-linkedlist/2.4partition.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter02-linkedlist/2.5Palindrom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter02-linkedlist/helpers/Add.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter02-linkedlist/2.7intersection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algos/longestPolindromStr.js" beforeDir="false" afterPath="$PROJECT_DIR$/algos/longestPalindromStr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter02-linkedlist/2.0addAndRemove.js" beforeDir="false" afterPath="$PROJECT_DIR$/chapter02-linkedlist/2.0addAndRemove.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter02-linkedlist/2.1removeDup.js" beforeDir="false" afterPath="$PROJECT_DIR$/chapter02-linkedlist/2.1removeDup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter02-linkedlist/2.2knthLastElement.js" beforeDir="false" afterPath="$PROJECT_DIR$/chapter02-linkedlist/2.2knthLastElement.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter02-linkedlist/2.4sumLists.js" beforeDir="false" afterPath="$PROJECT_DIR$/chapter02-linkedlist/2.4sumLists.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter02-linkedlist/2.7intersaction.js" beforeDir="false" afterPath="$PROJECT_DIR$/chapter02-linkedlist/helpers/lengthOfList.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,15 +20,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter02-linkedlist/2.2knthLastElement.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+            <state relative-caret-position="235">
+              <caret line="30" selection-start-line="30" selection-end-line="42" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter02-linkedlist/2.7intersaction.js">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/chapter02-linkedlist/2.7intersection.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter02-linkedlist/helpers/lengthOfList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -73,8 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/chapter04-trees/4.3minBSTT.js" />
-        <option value="$PROJECT_DIR$/chapter04-trees/helpers/BST.js" />
         <option value="$PROJECT_DIR$/chapter04-trees/4.4printLevelTree.js" />
         <option value="$PROJECT_DIR$/chapter04-trees/4.4commonAnsector.js" />
         <option value="$PROJECT_DIR$/chapter04-trees/4.5treeHeight.js" />
@@ -124,6 +128,8 @@
         <option value="$PROJECT_DIR$/chapter02-linkedlist/2.5Palindrom.js" />
         <option value="$PROJECT_DIR$/chapter02-linkedlist/2.2knthLastElement.js" />
         <option value="$PROJECT_DIR$/chapter02-linkedlist/2.7intersaction.js" />
+        <option value="$PROJECT_DIR$/chapter02-linkedlist/helpers/lengthOfList.js" />
+        <option value="$PROJECT_DIR$/chapter02-linkedlist/2.7intersection.js" />
       </list>
     </option>
   </component>
@@ -176,7 +182,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/chapter02-linkedlist/2.2knthLastElement.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/chapter02-linkedlist/2.7intersection.js" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -205,11 +211,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.2.2knthLastElement.js">
-    <configuration name="2.2knthLastElement.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="2.2knthLastElement.js" working-dir="$PROJECT_DIR$/chapter02-linkedlist">
+  <component name="RunManager" selected="Node.js.2.7intersection.js">
+    <configuration name="2.4sumLists.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/chapter02-linkedlist/2.4sumLists.js" working-dir="$PROJECT_DIR$/chapter02-linkedlist">
       <method v="2" />
     </configuration>
-    <configuration name="2.4sumLists.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/chapter02-linkedlist/2.4sumLists.js" working-dir="$PROJECT_DIR$/chapter02-linkedlist">
+    <configuration name="2.7intersection.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="2.7intersection.js" working-dir="$PROJECT_DIR$/chapter02-linkedlist">
       <method v="2" />
     </configuration>
     <configuration name="4.8sumOfPath.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="4.8sumOfPath.js" working-dir="$PROJECT_DIR$/chapter04-trees">
@@ -225,7 +231,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Node.js.2.2knthLastElement.js" />
+      <item itemvalue="Node.js.2.7intersection.js" />
       <item itemvalue="Node.js.findClassInDom.js" />
       <item itemvalue="Node.js.memorization.js" />
       <item itemvalue="Node.js.4.8sumOfPath.js" />
@@ -233,7 +239,7 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.2.2knthLastElement.js" />
+        <item itemvalue="Node.js.2.7intersection.js" />
         <item itemvalue="Node.js.theMaze.js" />
         <item itemvalue="Node.js.4.8sumOfPath.js" />
         <item itemvalue="Node.js.memorization.js" />
@@ -263,23 +269,23 @@
       <workItem from="1577012669916" duration="2116000" />
       <workItem from="1577177410255" duration="1198000" />
       <workItem from="1577265717460" duration="23575000" />
-      <workItem from="1577957634469" duration="28535000" />
+      <workItem from="1577957634469" duration="31468000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168118000" />
+    <option name="totallyTimeSpent" value="171051000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19872814" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19872814" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.330373" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.330373" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39786857" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="5" />
@@ -297,13 +303,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapter03-stacks&amp;queues/3.6sortStack.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter04-trees/helpers/BST.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
@@ -643,15 +642,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter02-linkedlist/2.2knthLastElement.js">
+    <entry file="file://$PROJECT_DIR$/chapter02-linkedlist/helpers/lengthOfList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        <state relative-caret-position="80">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter02-linkedlist/2.7intersaction.js">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/chapter02-linkedlist/2.2knthLastElement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="30" selection-start-line="30" selection-end-line="42" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter02-linkedlist/2.7intersection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
