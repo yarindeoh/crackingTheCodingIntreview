@@ -21,15 +21,39 @@ function removeDupFromSorted(head) {
 
 /**
  * when unsorted list
+ * it takes o(n) but a Set with o(n) space
+ * @param node
+ */
+function removeDup(node) {
+    let hash = new Set();
+    let prev = new Node(null);
+    while(node !== null) {
+       if(hash.has(node.element)) {
+           prev.next = node.next;
+       } else {
+           hash.add(node.element);
+           prev = node;
+       }
+       node = node.next;
+    }
+}
+
+/**
+ * Removing dups in place o(n) space, o(n2) time
  * @param head
  */
-function removeDup(head) {
-    let values = mapLinkToValues(head);
-    let curr = head;
-    while(curr) {
-        if(values.includes(curr.element)) {
-
+function removeDupsInPlace(head) {
+    let current = head;
+    while(current !== null) {
+        let runner = current;
+        while(runner.next !== null) {
+            if(runner.next.element === current.element) {
+                runner.next = runner.next.next;
+            } else {
+                runner = runner.next;
+            }
         }
+        current = current.next;
     }
 }
 
@@ -47,5 +71,6 @@ n4.next = n5;
 n5.next = n6;
 
 PrintList(n1);
-removeDupFromSorted(n1);
+removeDupsInPlace(n1);
+// removeDupFromSorted(n1);
 PrintList(n1);

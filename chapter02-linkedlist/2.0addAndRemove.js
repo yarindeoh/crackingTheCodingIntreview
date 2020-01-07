@@ -21,14 +21,11 @@ export function LinkedList() {
             head = node;
         } else {
             let currentNode = head;
-
             while(currentNode.next){
                 currentNode  = currentNode.next;
             }
-
             currentNode.next = node;
         }
-
         length++;
     };
 
@@ -42,10 +39,8 @@ export function LinkedList() {
                 previousNode = currentNode;
                 currentNode = currentNode.next;
             }
-
             previousNode.next = currentNode.next;
         }
-
         length --;
     };
 }

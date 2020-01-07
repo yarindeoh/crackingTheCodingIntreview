@@ -14,15 +14,19 @@ function findNthNode(head, n) {
     return nthNode.element;
 }
 
-function findKthToLast(k, head) {
-    if (head === null) {
-        return;
-    } else if (k === 1) {
-        console.log(head.element);
-        findKthToLast(k, head.next);
-    } else {
-        findKthToLast(k-1, head.next);
+let element = {};
+
+function findKthToLast(k, node) {
+    if (node === null) {
+        return 0;
     }
+    let index = findKthToLast(k, node.next) + 1;
+    if (k === index){
+        console.log('Found element');
+        console.log(node);
+        element.node = node;
+    }
+    return index;
 }
 
 const n1 = new Node(1);
@@ -38,5 +42,6 @@ n3.next = n4;
 n4.next = n5;
 // n5.next = n6;
 
-console.log(findNthNode(n1, 2));
-// console.log(findKthToLast(2, n1));
+// console.log(findNthNode(n1, 0));
+console.log(findKthToLast(2, n1));
+console.log(element);
