@@ -1,5 +1,9 @@
 let minStack = [];
 
+/**
+ * Time complexity of push and min is o(1)
+ * @param {element} element 
+ */
 function pushMin(element) {
     if(!minStack.length) {
         minStack.push(element);
