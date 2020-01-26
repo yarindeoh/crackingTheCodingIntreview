@@ -1,12 +1,18 @@
 const BST = require('./helpers/BST');
 
+/**
+ * Time complexity of o(n) 
+ * @param {node} t 
+ */
 function findTreeHeight(t) {
-    if(!t.right && !t.left) {
+    if(!n.right && !n.left) {
         return 0;
-    } else if(!t.right && t.left) {
-        return 1 + findTreeHeight(t.left);
+    } else if(!n.right && n.left) {
+        return 1 + findTreeHeight(n.left);
+    } else if(!n.left && n.right) {
+        return 1 + findTreeHeight(n.right);
     } else {
-        return 1 + findTreeHeight(t.right);
+        return 1 + findTreeHeight(n.right) + findTreeHeight(n.left);
     }
 }
 
@@ -26,3 +32,5 @@ t1.addToBinaryTree(80);
 t1.addToBinaryTree(-20);
 // console.log(t1);
 console.log(isTreeBalanced(t1));
+
+// Also works on regular binary tree

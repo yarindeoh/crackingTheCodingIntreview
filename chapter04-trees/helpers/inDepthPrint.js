@@ -17,7 +17,7 @@ function preOrderPrint(t) {
  * left -> root -> right
  * @param t
  */
-function inOrderPrint(t) {
+export function inOrderPrint(t) {
     if (t === null) return;
     inOrderPrint(t.left);
     console.log(t.value);
