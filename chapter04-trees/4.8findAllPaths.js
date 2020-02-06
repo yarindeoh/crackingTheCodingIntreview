@@ -25,14 +25,18 @@ const Tree = require('./helpers/Tree');
 //     return elements;
 // }
 
+/**
+ * Find all paths of leafs - from root to leaf
+ * @param {Node/Tree} root 
+ */
 function binaryTreePaths(root) {
     let paths = [];
     if(!root) return [];
-    if(root.left == null && root.right == null){
+    if(root.left == null && root.right == null) {
         if(paths.length === 0) return [""+root.value];
         else return root.value;
     }
-    else{
+    else {
         if(root.left)
             binaryTreePaths(root.left).forEach(function(lp) {
                 paths.push(root.value + "->" + lp);

@@ -1,7 +1,7 @@
 const BST = require('./helpers/BST');
 
 /**
- * also called inorder traversal
+ * 
  * @param t
  */
 function printTree(t) {
