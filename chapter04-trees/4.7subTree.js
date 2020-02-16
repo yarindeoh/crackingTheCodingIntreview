@@ -47,7 +47,7 @@ function isSame2(n1, n2) {
 function isSubTree2(t1, t2) {
     if(!t1 || !t2) {
         return false;
-    } else if(t1.value === t2.value &&isSame(t1, t2)) {
+    } else if(t1.value === t2.value && isSame(t1, t2)) {
         return true;
     } else {
         return (t1.right && isSubTree(t1.right, t2)) || (t1.left && isSubTree(t1.left, t2)) || false;

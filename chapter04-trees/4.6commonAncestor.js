@@ -5,7 +5,7 @@ function commonAnsector(t, n1, n2) {
         return commonAnsector(t.left, n1, n2)
     } else if(isExist(t.right, n1) && isExist(t.right, n2)) {
         return commonAnsector(t.right, n1, n2)
-    }
+    } 
     return t;
 }
 
