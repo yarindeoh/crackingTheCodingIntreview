@@ -18,3 +18,23 @@ if after one night no one leaves - the island has 2 persons and they will go on 
 more than 2:
 same patten - will go on n nights
  */
+
+function getOptimalError(numOfIngredients, numOfInputs, distances) {
+    let currentErr;
+    let distancesArr = distances.split("");
+    let middleIndex = Math.floor(distancesArr / 2);
+    // until mid arr should be sorted
+    // from mid arr should be reversed sorted
+    let firstArr = distancesArr.splice(0, middleIndex);
+    firstArr.sort();
+    distancesArr.sort().reverse();
+    let optimalArr = firstArr.concat(distancesArr);
+    
+    // calc min error
+     for(let i = 0; i < numOfInputs; i ++) {
+            let midDistance = i < middleInput ? i : (numInput - i - 1);
+            let optimalDistance = optimalArr[i] - midDistance;
+            currentErr += Math.sqrt(optimalArr[i] - optimalDistance);
+     }
+    return currentErr;
+}

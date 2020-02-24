@@ -35,3 +35,18 @@ function traverse(maze, col, row) {
 
 
 console.log(traverse(myMaze, 1, 2));
+
+let makeGrid = function(n) {
+    let grid = [];
+    for(let i = 0; i < n; i ++) {
+        grid.push([]);
+            for(let j = 0; j < n; j ++) {
+                grid[i][j] = false;
+            }
+        }
+
+    grid.toggle = function(i, j) {
+        grid[i][j] = !grid[i][j];
+    }
+    
+}
