@@ -1,2 +1,2 @@
 # crackingCodeIntreview
-4th addition, JavaScript
+4th & 6th addition, JavaScript
