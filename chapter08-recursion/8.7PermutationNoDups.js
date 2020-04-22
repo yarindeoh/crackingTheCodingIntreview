@@ -11,6 +11,8 @@ function permuteString(currPerm, remainingChars, res = []) {
       for (var i = 0; i < remainingChars.length; i++) {
           let strI = currPerm + remainingChars.charAt(i);
           let remainingI = remainingChars.slice(0, i) + remainingChars.slice(i+ 1);
+          console.log(strI);
+          console.log(remainingI);
         permuteString(strI, remainingI, res);
       }
     }
