@@ -6,7 +6,7 @@ const Tree = require('./Tree');
  * @param t
  */
 function preOrderPrint(t) {
-    if(t === null) return;
+    if (t === null) return;
     console.log(t.value);
     preOrderPrint(t.left);
     preOrderPrint(t.right);
@@ -22,6 +22,27 @@ export function inOrderPrint(t) {
     inOrderPrint(t.left);
     console.log(t.value);
     inOrderPrint(t.right);
+}
+
+/**
+ * Inorder traversal using stack !
+ * @param {TreeNode} A 
+ */
+function inorderTraversal(A) {
+    let res = [];
+    let current = A;
+    let stack = [];
+    while (current != null || stack.length > 0) {
+        while (current !== null) {
+            stack.push(current);
+            current = current.left;
+        }
+        current = stack.pop();
+        console.log(current);
+        res.push(current.data);
+        current = current.right;
+    }
+    return res;
 }
 
 /**
@@ -56,8 +77,23 @@ a3.right = a8;
 a4.right = a9;
 a4.left = a10;
 
-
 console.log('pre order ->>>>>>>>>');
 preOrderPrint(a1);
 console.log('in order ->>>>>>>>>');
 inOrderPrint(a1);
+
+//  preorderTraversal : function(A){
+//         if (!A) return [];
+//         const arr = [];
+//         const stack = [];
+//         // push right then left ... [right, left].. remove from top
+//         stack.push(A)
+//         while (stack.length > 0) {
+//             curr = stack.pop();
+//             arr.push(curr.data);
+
+//             if (curr.right) stack.push(curr.right);
+//             if (curr.left) stack.push(curr.left)
+//         }
+//         return arr
+//     }
