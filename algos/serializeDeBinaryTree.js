@@ -23,14 +23,14 @@ function manipulateTree() {
      * @param {*} node
      * return arr
      */
-    function serielizeTree(node) {
+    function serializeTree(node) {
         if (!node) {
             arr.push('#');
             return;
         }
         arr.push(node.value);
-        serielizeTree(node.left);
-        serielizeTree(node.right);
+        serializeTree(node.left);
+        serializeTree(node.right);
     }
     /**
      * @param {*} arr
@@ -50,7 +50,7 @@ function manipulateTree() {
 
         return node;
     }
-    serielizeTree(t1);
+    serializeTree(t1);
     console.log(arr);
     let n1 = deSerielizeTree(arr);
     return n1;
