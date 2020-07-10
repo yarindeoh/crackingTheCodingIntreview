@@ -1,32 +1,33 @@
-let grid = [
-    [0,0,0], 
-    [0,1,0], 
-    [0,0,0], 
-    [1,1,0]
-    ]
-
 /**
- * 
- * @param {row} r 
- * @param {col} c 
- * @param {Array of points} path 
+ *
+ * @param {row} x 
+ * @param {col} y
+ * @param {Array of points} path
  */
-function robotInGrid(r, c, path =[]) {
-  let endRow = grid.length - 1;
-  let endCol = grid[0].length - 1;
-   if (r === endRow && c === endCol) {
-       path.push([r, c]);
-   } else if (r <= endRow && c <= endCol) {
-        if (r < endRow && grid[r + 1][c] !== 1) {
-            path.push([r, c]);
-            robotInGrid(r + 1, c, path);
-      }
-        if (c < endCol && grid[r][c + 1] !== 1) {
-            path.push([r, c]);
-            robotInGrid(r, c + 1, path);
-      }
-    
-    } 
-return path;
-} 
+function findPaths() {
+    let grid = [
+        [0, 0, 0],
+        [0, 1, 0],
+        [0, 0, 0],
+        [1, 1, 0],
+    ];
+    var paths = [];
+    var endRow = grid.length - 1;
+    var endCol = grid[0].length - 1;
+    function robotInGrid(row, col, currPath = []) {
+        if (row === endRow && col === endCol) {
+            paths.push(currPath.concat([[row, col]]));
+        } else if (row <= endRow && col <= endCol) {
+            if (row < endRow && grid[row + 1][col] !== 1) {
+                robotInGrid(row + 1, col, currPath.concat([[row, col]]));
+            }
+            if (col < endCol && grid[row][col + 1] !== 1) {
+                robotInGrid(row, col + 1, currPath.concat([[row, col]]));
+            }
+        }
+    }
+    robotInGrid(0, 0);
+    return paths;
+}
 
+findPaths();
