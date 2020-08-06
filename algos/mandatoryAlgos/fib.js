@@ -12,7 +12,7 @@ function printFib(n) {
 
 function memoFib(n, memo = []) {
       if(n <= 0) return 0;
-      else if(n == 1) return 1;
+      else if(n === 1) return 1;
       else if(memo[n] > 0) return memo[n];
       else {
         memo[n] = memoFib(n - 1, memo) + memoFib(n - 2, memo);
