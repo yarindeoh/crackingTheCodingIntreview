@@ -17,7 +17,7 @@ function preOrderPrint(t) {
  * left -> root -> right
  * @param t
  */
-export function inOrderPrint(t) {
+function inOrderPrint(t) {
     if (t === null) return;
     inOrderPrint(t.left);
     console.log(t.value);
@@ -26,7 +26,7 @@ export function inOrderPrint(t) {
 
 /**
  * Inorder traversal using stack !
- * @param {TreeNode} A 
+ * @param {TreeNode} A
  */
 function inorderTraversal(A) {
     let res = [];
@@ -97,3 +97,5 @@ inOrderPrint(a1);
 //         }
 //         return arr
 //     }
+
+module.exports = { inOrderPrint, postOrder };

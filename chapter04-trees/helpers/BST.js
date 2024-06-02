@@ -21,14 +21,14 @@ BST.prototype.addToBinaryTree = function(element) {
 };
 
 
-// let t1 = new BST(3);
-// t1.addToBinaryTree(4);
-// t1.addToBinaryTree(1);
-// t1.addToBinaryTree(80);
-// t1.addToBinaryTree(-20);
-// t1.addToBinaryTree(2);
+let t1 = new BST(3);
+t1.addToBinaryTree(4);
+t1.addToBinaryTree(1);
+t1.addToBinaryTree(80);
+t1.addToBinaryTree(-20);
+t1.addToBinaryTree(2);
 // t1.addToBinaryTree(82);
 // t1.addToBinaryTree(-30);
-// console.log(t1);
+console.log(t1);
 
 module.exports = BST;

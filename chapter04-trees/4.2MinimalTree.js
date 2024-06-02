@@ -1,5 +1,5 @@
 const Tree = require('./helpers/Tree');
-const inOrderPrint = require('./helpers/inDepthPrint');
+const { inOrderPrint } = require('./helpers/DFSinDepthPrint');
 
 function minTree(arr, start, end) {
     if(end < start) {
